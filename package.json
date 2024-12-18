@@ -1,6 +1,6 @@
 {
 	"name": "datocms-plugin-better-presentations",
-	"version": "0.0.2",
+	"version": "0.0.3",
 	"author": "DanMB",
 	"homepage": "https://github.com/DanMB/datocms-plugin-better-presentations",
 	"description": "Better record presentations for DatoCMS",
@@ -10,7 +10,7 @@
 	"type": "module",
 	"datoCmsPlugin": {
 		"title": "Better presentations",
-		"entryPoint": "build/index.js",
+		"entryPoint": "build/index.html",
 		"permissions": []
 	},
 	"files": [
