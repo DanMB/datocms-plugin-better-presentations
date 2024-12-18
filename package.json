@@ -19,7 +19,7 @@
 	"scripts": {
 		"dev": "node esbuild --dev",
 		"build": "node esbuild",
-		"prepublishOnly": "esbuild",
+		"prepublishOnly": "node esbuild",
 		"format": "prettier --check --write ."
 	},
 	"dependencies": {
