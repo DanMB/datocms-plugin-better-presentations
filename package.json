@@ -1,0 +1,33 @@
+{
+	"name": "datocms-plugin-better-presentations",
+	"version": "0.0.1",
+	"author": "DanMB",
+	"homepage": "https://github.com/DanMB/datocms-plugin-better-presentations",
+	"description": "Better record presentations for DatoCMS",
+	"keywords": [
+		"datocms-plugin"
+	],
+	"type": "module",
+	"datoCmsPlugin": {
+		"title": "Better presentations",
+		"entryPoint": "build/index.js",
+		"permissions": []
+	},
+	"files": [
+		"build"
+	],
+	"scripts": {
+		"dev": "node esbuild --dev",
+		"build": "node esbuild",
+		"prepublishOnly": "esbuild",
+		"format": "prettier --check --write ."
+	},
+	"dependencies": {
+		"datocms-plugin-sdk": "^2.0.9"
+	},
+	"devDependencies": {
+		"esbuild": "^0.24.0",
+		"prettier": "^3.3.0",
+		"typescript": "^5.4.5"
+	}
+}
